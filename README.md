@@ -35,7 +35,7 @@ We used an app called MuseDirect, which allows us to download EEG data to a CSV 
 ### Driver Distraction Models
 We created two models to determine whether a driver was distracted. We used the collected EEG data to do this. Here are the two models:
   - We created a logistic regression model which learned a logistic function to determine whether the driver is distracted or not at a certain time (1 or 0). The accuracy of this model was 79%. Below is the confusion matrix of this model.
-  - 
+  
 ![image](https://user-images.githubusercontent.com/20733329/147865857-73edcf61-e091-471c-ad7c-5f8c28c25db1.png)
   - We created a multilayer perceptron to predict whether the driver was distracter. The accuracy of the model was 82%, and below is the confusion matrix.
  
