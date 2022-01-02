@@ -81,4 +81,4 @@ We are deeply grateful to Courtnie Paschall (MD/PhD Student at the University of
 ---
 ## Files
 Here is a brief description of the main files you will find in this repository:
-- ``project_poster.png `` is the poster we presented at the 2020 *Washington State Science & Engineering Fair* (WSSEF). It won first place at this fair.
+- ``poster_picture.png `` is the poster we presented at the 2020 *Washington State Science & Engineering Fair* (WSSEF). It won first place at this fair.
