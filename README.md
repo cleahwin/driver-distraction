@@ -81,4 +81,14 @@ We are deeply grateful to Courtnie Paschall (MD/PhD Student at the University of
 ---
 ## Files
 Here is a brief description of the main files you will find in this repository:
+- ``add_distraction_type`` creates a dictionary mappping the distraction type to a key
+- ``crash_swerve_counter.py`` counts the number of crashes and swerves based on live labeling of the data
+- ``set_trials.py`` randomly selected a driving task and distraction for the participant to perform.
+-  ``binary_decision_tree.py`` trains and tests a decision tree model. This program also creates a confusion matrix.
+-  ``logistic_regression.py`` creates a logistic regression model.
+-  ``linear_regression.py`` creates a linear regression model and calculates the mean squared error of the model.
+-  ``feature_selection_logistic_regression.py`` performs recursive elimination on the logistic regression model to determine the features that contribute the most to the model's accuracy.
+-  ``data_preprocessing`` removed empty rows and fixed other issues with the CSV files.
+-  ``distraction_index.py`` set the distraction level on a scale of 1-5 for each file.
+-  ``stream.py`` and ``real_time.py`` were created in an attempt to predict distraction level real time. To do this, we would have to have a stream of data flowing into our models.
 - ``poster_picture.png `` is the poster we presented at the 2020 *Washington State Science & Engineering Fair* (WSSEF). It won first place at this fair.
